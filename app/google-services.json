@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "154388050928",
+    "firebase_url": "https://bookhub-72f5c.firebaseio.com",
+    "project_id": "bookhub-72f5c",
+    "storage_bucket": "bookhub-72f5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154388050928:android:38dc9cfd8e69cdf6e1e335",
+        "android_client_info": {
+          "package_name": "com.Rahul.toytore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154388050928-v6vcd9vmhf1j6o2li5p76e037afl0ca3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Rahul.toytore",
+            "certificate_hash": "cbb1b90d6a3379e5fb8a6f80e67d68dbed3a64aa"
+          }
+        },
+        {
+          "client_id": "154388050928-km7sse6n6llfh1rm276tsbsoedv63f0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEBYMa6fv8gjOvB1ob9jLntuGXB5MJNpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154388050928-km7sse6n6llfh1rm276tsbsoedv63f0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

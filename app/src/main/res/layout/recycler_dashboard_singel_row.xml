@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/itemrealativelayout"
+
+    >
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_icon"
+        android:id="@+id/imgitem"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/todo_dec" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/list_item"
+        android:layout_marginTop="5dp"
+        android:textSize="10sp"
+        android:padding="8dp"
+        android:id="@+id/txtitem"
+        android:layout_toEndOf="@+id/imgitem"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toEndOf="@+id/imgitem"
+        android:layout_marginStart="160dp"
+        android:src="@drawable/ic_staricon"
+        android:layout_marginTop="9dp"
+        android:id="@+id/starr"
+        android:contentDescription="@string/todo_img" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/starr"
+        android:text="@string/_4_5"
+        android:layout_marginTop="9dp"
+        android:layout_marginStart="4dp"
+        android:textSize="20sp"
+        android:id="@+id/ratings"/>
+
+
+        <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtitem"
+        android:layout_toEndOf="@+id/imgitem"
+        android:text="299"
+        android:textSize="15sp"
+        android:padding="6dp"
+            android:layout_marginStart="10dp"
+        />
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

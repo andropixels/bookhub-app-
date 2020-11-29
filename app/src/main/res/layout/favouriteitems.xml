@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/favitemrelativeview"
+    >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+           android:id="@+id/favitemimage"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/favitemimage"
+            android:layout_marginTop="10dp"
+            android:text="bookname"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:id="@+id/favitembookname"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/favitembookname"
+        android:layout_marginTop="10dp"
+        android:text="bookprice"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:textStyle="normal"
+        android:id="@+id/favitembookprice"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/favitembookprice"
+        android:layout_marginTop="10dp"
+        android:text="bookprice"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:textStyle="normal"
+        android:id="@+id/favitembookratings"
+        />
+
+
+
+
+</RelativeLayout>
